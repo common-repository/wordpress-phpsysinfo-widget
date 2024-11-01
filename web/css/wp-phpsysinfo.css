@@ -1,0 +1,28 @@
+.wp-progress-bar {
+	width:150px;
+	height:10px;
+	border:1px solid #666;
+	font-size:9px;
+}
+
+.wp-progress-percent {
+	background-image: url('../images/gradient.gif');
+	height:10px;
+	text-align:center;
+}
+
+.wp-phpsysinfo-footer {
+	font-size:8px;
+	float:right;
+}
+li#system-information h3{
+	margin-top:10px;
+}
+
+#system-information li:before {
+	content: ""!important; 
+}
+ #sidebar li#system-information ul ul li {
+	margin-top:10px;
+}
+
